@@ -1,0 +1,96 @@
+@use "../abstract" as *;
+/*----------------------------------------*/
+/*  02. HEADER CSS START
+/*----------------------------------------*/
+.tranparent-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 105px;
+}
+
+.header-area{
+    & .logo{
+
+    }
+    & .main-menu{
+        & nav{
+            & ul{
+                & li{
+                    margin-right: 48px;
+                    position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 2px;
+                        height:0;
+                        background: $theme-color;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        transition: .5s;
+                    }
+                    &:hover::before{
+                        height: 30px;
+                    }
+                    &:hover .submenu {
+                        top: 100%;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                    & .submenu{
+                        position: absolute;
+                        background: $white;
+                        min-width: 200px;
+                        transition: .3s;
+                        top: 115%;
+                        left: 0;
+                        padding: 14px 0;
+                        opacity: 0;
+                        visibility: hidden;
+                        border-top: 3px solid $theme-color;
+                        & li{
+                            display: block;
+                            margin: 0;
+                            &:hover::before{
+                                height: 0px;
+                            }
+                            
+                            & a{
+                                color: $black;
+                                padding: 5px 25px;
+                                transition: .3s;
+                                &:hover{
+                                    color: $theme-color;
+                                }
+                            }
+                        }
+                    }
+                    & a{
+                        color: $white;
+                        text-transform: uppercase;
+                        padding: 35px 0px;
+                        display: block;
+                        transition: .3s;
+                    }
+                    &:hover a {
+                        color: $theme-color;
+                    }
+
+                }
+            }
+        }   
+
+    } 
+    & .header-cta{
+        margin-top: 12px;
+        margin-right: 50px;
+        & span{
+            & a{
+                color: $white;
+            }
+        }
+    }
+}
