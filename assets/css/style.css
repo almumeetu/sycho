@@ -941,6 +941,31 @@ p {
   color: #ffffff;
 }
 
+.s-btn {
+  background: #fff;
+  height: 65px;
+  display: inline-block;
+  padding: 0 40px;
+  color: #056c5f;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 65px;
+}
+
+.sycho-btn {
+  background: #056c5f;
+  height: 65px;
+  display: inline-block;
+  padding: 0 40px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 65px;
+  border-radius: 0 50px 50px 50px;
+}
+
 /*----------------------------------------*/
 /*  02. HEADER CSS START
 /*----------------------------------------*/
@@ -950,6 +975,8 @@ p {
   right: 0;
   top: 0;
   padding: 0 105px;
+  background: rgba(39, 117, 111, 0.2);
+  z-index: 9;
 }
 
 .header-area .main-menu nav ul li {
@@ -1019,6 +1046,63 @@ p {
 }
 .header-area .header-cta span a {
   color: #ffffff;
+}
+
+.slider-area .single-slider {
+  min-height: 1030px;
+}
+.slider-area .single-slider .slider-content {
+  padding-left: 120px;
+}
+.slider-area .single-slider .slider-content span {
+  color: #f8a683;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.slider-area .single-slider .slider-content h2 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 95px;
+  line-height: 1;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.slider-area .single-slider .slider-content .s-btn {
+  background: #ffffff;
+  height: 65px;
+  display: inline-block;
+  padding: 0 40px;
+  color: #056c5f;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 65px;
+  transition: 0.5s;
+}
+.slider-area .single-slider .slider-content .s-btn:hover {
+  background: #f8a683;
+  color: #ffffff;
+}
+
+.slider-active .slick-slide img {
+  display: inline-block;
+}
+.slider-active .slick-dots {
+  position: absolute;
+  bottom: 70px;
+  right: 45%;
+}
+.slider-active .slick-dots li {
+  display: inline-block;
+  margin: 0 12px;
+}
+.slider-active .slick-dots li button {
+  background: no-repeat;
+  border: 0;
+  color: #ffffff;
+}
+.slider-active .slick-dots li button i {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

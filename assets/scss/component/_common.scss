@@ -879,3 +879,27 @@ p {
   border-color: #056c5f;
   color: #ffffff;
 }
+
+.s-btn{
+  background: #fff;
+  height: 65px;
+  display: inline-block;
+  padding: 0 40px;
+  color: #056c5f;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 65px;
+}
+.sycho-btn{
+  background: #056c5f;
+  height: 65px;
+  display: inline-block;
+  padding: 0 40px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 65px;
+  border-radius: 0 50px 50px 50px;
+}
