@@ -1,0 +1,32 @@
+@use"../abstract" as*;
+
+.features-area{
+    & .features-item{
+        overflow: hidden;
+        display: inline-block;
+        & .features-icon{
+            margin-right: 35px;
+        }
+        & .features-content{
+            & h3{
+                font-size: 30px;
+                font-weight: 500;
+                margin-bottom: 13px;
+            }
+            & p{
+                color: #3b605d;
+                margin: 0;
+            }
+        }
+    }
+}
+.features-area{
+    border-bottom: 1px solid $white;
+}
+
+.features-row{
+    & .col-xl-4{
+        text-align: center;
+        border-right: 1px solid $white;
+    }
+}

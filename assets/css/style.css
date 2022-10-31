@@ -1048,6 +1048,9 @@ p {
   color: #ffffff;
 }
 
+/*----------------------------------------*/
+/*  Slider Css Start Here
+/*----------------------------------------*/
 .slider-area .single-slider {
   min-height: 1030px;
 }
@@ -1101,8 +1104,31 @@ p {
   border: 0;
   color: #ffffff;
 }
-.slider-active .slick-dots li button i {
-  display: none;
+
+.features-area .features-item {
+  overflow: hidden;
+  display: inline-block;
+}
+.features-area .features-item .features-icon {
+  margin-right: 35px;
+}
+.features-area .features-item .features-content h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.features-area .features-item .features-content p {
+  color: #3b605d;
+  margin: 0;
+}
+
+.features-area {
+  border-bottom: 1px solid #ffffff;
+}
+
+.features-row .col-xl-4 {
+  text-align: center;
+  border-right: 1px solid #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

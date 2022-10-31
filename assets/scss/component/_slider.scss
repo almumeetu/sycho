@@ -1,5 +1,7 @@
 @use "../abstract" as *;
-
+/*----------------------------------------*/
+/*  Slider Css Start Here
+/*----------------------------------------*/
 .slider-area{
     & .single-slider{
         min-height: 1030px;
@@ -54,9 +56,6 @@
                 background: no-repeat;
                 border: 0;
                 color: $white;
-                & i{
-                    display: none;
-                }
             }
         }
     
