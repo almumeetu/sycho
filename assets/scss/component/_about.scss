@@ -1,2 +1,91 @@
 @use "../abstract" as *;
 
+.about-area{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & .about-bg-img{
+        height: 375px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    & .about-img{
+        position: relative;
+    }
+    & .about-content{           
+            position: absolute;
+            bottom: 62px;
+            left: 15px;
+            background-color: #f0dfcf;
+            padding: 45px 30px;
+            border-radius: 0 30px 0 0;
+            padding-bottom: 50px;
+            & h4{
+                font-size: 35px;
+                line-height: 36px;
+                color: #005046;
+                font-family: inherit;
+                margin: 0;
+            }
+
+        }
+
+}
+
+.about-wraper{
+    & .section-title-wrap{
+        & .section-sub-title{
+            & img{
+
+            }
+            & span{
+                font-size: 14px;
+                color: #6b827b;
+                font-weight: 400;
+                text-transform: uppercase;
+                display: inline-block;
+            }
+        }
+        & .section-title{
+            font-size: 50px;
+            line-height: 60px;
+            text-transform: capitalize;
+        }
+        & p {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.about-info{
+    .about-info-list{
+        & i {
+            background: #f8a683;
+            height: 25px;
+            width: 25px;
+            color: #fff;
+            text-align: center;
+            line-height: 24px;
+            border-radius: 30px;
+            margin-right: 10px;
+        }
+        & span{
+            font-family: "Cormorant Garamond", serif;
+            font-weight: 600;
+            color: #005046;
+            font-size: 25px;
+        }
+    }
+}
+.about-author{
+    & .ab-author{
+        overflow: hidden;
+        padding-left: 15px;
+        & h3{
+            font-size: 23px;
+            margin-bottom: 0;
+        }
+    }
+}
