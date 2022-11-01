@@ -902,4 +902,8 @@ p {
   text-transform: uppercase;
   line-height: 65px;
   border-radius: 0 50px 50px 50px;
+  &:hover{
+    background: #f8a683;
+    color:#fff;
+  }
 }

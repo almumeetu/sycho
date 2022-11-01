@@ -965,6 +965,10 @@ p {
   line-height: 65px;
   border-radius: 0 50px 50px 50px;
 }
+.sycho-btn:hover {
+  background: #f8a683;
+  color: #fff;
+}
 
 /*----------------------------------------*/
 /*  02. HEADER CSS START
@@ -1305,6 +1309,30 @@ p {
 .services-area .services__item .services__overlay p {
   color: #ffffff;
   margin-bottom: 35px;
+}
+
+/*----------------------------------------*/
+/*  07. SYCHOLOGIST CSS START
+/*----------------------------------------*/
+.sychologist__area {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sychologist__area .sychologist__person {
+  margin-top: -65px;
+}
+.sychologist__area .sychologist__content h1 {
+  font-size: 50px;
+  margin-bottom: 17px;
+}
+.sychologist__area .sychologist__content h3 {
+  font-size: 27px;
+  margin-bottom: 22px;
+  font-weight: normal;
+}
+.sychologist__area .sychologist__content p {
+  margin-bottom: 45px;
 }
 
 /*# sourceMappingURL=style.css.map */

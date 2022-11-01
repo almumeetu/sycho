@@ -1,0 +1,35 @@
+@use "../abstract" as *;
+
+/*----------------------------------------*/
+/*  07. SYCHOLOGIST CSS START
+/*----------------------------------------*/
+
+
+
+.sychologist__area {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & .sychologist__person {
+        margin-top: -65px;
+    }
+
+    & .sychologist__content {
+        & h1 {
+            font-size: 50px;
+            margin-bottom: 17px;
+        }
+
+        & h3 {
+            font-size: 27px;
+            margin-bottom: 22px;
+            font-weight: normal;
+        }
+
+        & p {
+            margin-bottom: 45px;
+        }
+
+    }
+}
