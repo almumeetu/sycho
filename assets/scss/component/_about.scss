@@ -15,22 +15,22 @@
         position: relative;
     }
     & .about-content{           
-            position: absolute;
-            bottom: 62px;
-            left: 15px;
-            background-color: #f0dfcf;
-            padding: 45px 30px;
-            border-radius: 0 30px 0 0;
-            padding-bottom: 50px;
-            & h4{
-                font-size: 35px;
-                line-height: 36px;
-                color: #005046;
-                font-family: inherit;
-                margin: 0;
-            }
-
-        }
+        position: absolute;
+        bottom: 62px;
+        left: 15px;
+        background-color: #f0dfcf;
+        padding: 45px 30px;
+        border-radius: 0 30px 0 0;
+        padding-bottom: 50px; 
+        & h4{
+            font-size: 35px;
+            line-height: 36px;
+            color: #005046;
+            font-family: inherit;
+            margin: 0;
+        }  
+        
+    }
 
 }
 
