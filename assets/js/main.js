@@ -340,7 +340,9 @@
 	
 			slidesToScroll: 1,
 	
-			autoplay:false,
+			autoplay:true,
+
+			autoplayTimeout:2000,
 	
 			responsive: [
 	
@@ -420,7 +422,7 @@
 	
 			margin:30,
 	
-			autoplay:false,
+			autoplay:true,
 	
 			autoplayTimeout:3000,
 	
@@ -640,7 +642,7 @@
 	
 			margin:30,
 	
-			autoplay:false,
+			autoplay:true,
 	
 			autoplayTimeout:3000,
 	
@@ -764,7 +766,7 @@
 	
 			margin:20,
 	
-			autoplay:false,
+			autoplay:true,
 	
 			autoplayTimeout:3000,
 	
