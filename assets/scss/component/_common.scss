@@ -41,6 +41,7 @@
 /*----------------------------------------*/
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -423,33 +424,49 @@ p {
   line-height: 65px;
   border-radius: 0 50px 50px 50px;
 }
+
+.s-btn__pink {
+  background: #eea676;
+  height: 65px;
+  display: inline-block;
+  padding: 0 50px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 65px;
+  border-radius: 0 50px 50px 50px;
+
+  &:hover {
+    background: #fff;
+    color: #056c5f;
+  }
+}
+
 .s-btn-sm {
   padding: 0 40px;
 }
+
 .s-btn:hover {
   background: #eea676;
   color: #fff;
 }
+
 .s-btn__white {
   background: #fff;
   color: #056c5f;
 }
+
 .s-btn__white-2 {
   background: #ffffff;
   color: #005046;
 }
+
 .s-btn__white-2:hover {
   color: #ffffff;
   background: #005046;
 }
-.s-btn__pink {
-  background: #f8a683;
-  color: #ffffff;
-}
-.s-btn__pink:hover {
-  background: #fff;
-  color: #056c5f;
-}
+
 .s-btn__square {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -457,14 +474,17 @@ p {
   background-color: #f8a683;
   color: #ffffff;
 }
+
 .s-btn__square:hover {
   background-color: #056c5f;
   color: #ffffff;
 }
+
 .s-btn__square-white:hover {
   color: #056c5f;
   background-color: #ffffff;
 }
+
 .s-btn__square-2 {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -472,14 +492,17 @@ p {
   background-color: #056c5f;
   color: #ffffff;
 }
+
 .s-btn__square-2:hover {
   background-color: #005046;
   color: #ffffff;
 }
+
 .s-btn__square-green {
   background-color: #056c5f;
   color: #ffffff;
 }
+
 .s-btn__square-green:hover {
   background-color: #f8a683;
   color: #ffffff;
@@ -493,7 +516,9 @@ p {
   text-transform: uppercase;
   padding-right: 25px;
 }
-.link-btn::after, .link-btn::before {
+
+.link-btn::after,
+.link-btn::before {
   position: absolute;
   content: "ï…¸";
   font-family: "Font Awesome 5 Pro";
@@ -503,17 +528,21 @@ p {
   top: -6px;
   transition: all ease 0.2s;
 }
+
 .link-btn::after {
   right: 12px;
   opacity: 0;
 }
+
 .link-btn:hover {
   color: #005046;
 }
+
 .link-btn:hover::after {
   right: 0;
   opacity: 1;
 }
+
 .link-btn:hover::before {
   opacity: 0;
   right: -12px;
@@ -526,27 +555,34 @@ p {
   text-transform: capitalize;
   margin-bottom: 10px;
 }
+
 .section__title-white h1 {
   color: #ffffff;
 }
+
 .section__title-white .section__sub-title {
   color: #ffffff;
 }
+
 .section__sub-title {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
   display: inline-block;
 }
+
 .section__sub-title-2 {
   color: #f8a683;
   font-weight: 500;
 }
+
 .section__sub-title-3 {
   padding-left: 17px;
   position: relative;
 }
-.section__sub-title-3::after, .section__sub-title-3::before {
+
+.section__sub-title-3::after,
+.section__sub-title-3::before {
   position: absolute;
   content: "";
   top: 49%;
@@ -559,12 +595,15 @@ p {
   width: 2px;
   background-color: #f8a683;
 }
+
 .section__sub-title-3::before {
   left: 4px;
 }
+
 .section__sub-title-4 {
   padding: 0 10px;
 }
+
 .section__sub-title-4::before {
   left: auto;
   right: 2px;
@@ -606,6 +645,7 @@ p {
 .social ul li {
   margin-right: 5px;
 }
+
 .social ul li a {
   display: block;
   width: 44px;
@@ -619,14 +659,17 @@ p {
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
+
 .social ul li a:hover {
   background-color: #f8a683;
   color: #ffffff;
 }
+
 .social.social-border ul li a {
   border: 1px solid #dedcd9;
   background: #ffffff;
 }
+
 .social.social-border ul li a:hover {
   border-color: #005046;
   color: #ffffff;
@@ -647,22 +690,27 @@ p {
   color: #056c5f;
   animation: pulse 2s infinite;
 }
+
 .play-btn:hover {
   background-color: #056c5f;
   color: #ffffff;
 }
+
 .play-btn.play-btn-pink {
   background-color: #f8a683;
   color: #ffffff;
 }
+
 .play-btn.play-btn-pink:hover {
   background-color: #056c5f;
   color: #ffffff;
 }
+
 .play-btn.play-btn-pink-white:hover {
   background-color: #ffffff;
   color: #056c5f;
 }
+
 .play-btn.play-btn-sm {
   width: 56px;
   height: 56px;
@@ -674,33 +722,40 @@ p {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
   }
+
   70% {
     -webkit-box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
   }
+
   100% {
     -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
 }
+
 @keyframes pulse {
   0% {
     -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
   }
+
   70% {
     -moz-box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 45px rgba(255, 255, 255, 0);
   }
+
   100% {
     -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
 }
+
 /* page title area start */
 .page__title {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .page__title::before {
   position: absolute;
   content: "";
@@ -710,12 +765,14 @@ p {
   top: 0;
   background: rgba(0, 0, 0, 0.4);
 }
+
 .page__title-inner h1 {
   text-transform: capitalize;
   color: #ffffff;
   font-size: 60px;
   margin-bottom: 5px;
 }
+
 .page__title-breadcrumb .breadcrumb {
   background: transparent;
   display: inline-block !important;
@@ -726,14 +783,17 @@ p {
   border-radius: 25px;
   margin-bottom: 22px;
 }
+
 .page__title-breadcrumb .breadcrumb-item {
   text-transform: capitalize;
   color: #ffffff;
 }
+
 .page__title-breadcrumb .breadcrumb-item:hover {
   color: #f8a683;
 }
-.page__title-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+
+.page__title-breadcrumb .breadcrumb-item+.breadcrumb-item::before {
   color: #ffffff;
   content: "-";
 }
@@ -749,6 +809,7 @@ p {
   margin-bottom: 22px;
   text-transform: capitalize;
 }
+
 .sidebar-title h3::before {
   position: absolute;
   content: "";
@@ -758,6 +819,7 @@ p {
   height: 3px;
   background-color: #f8a683;
 }
+
 .sidebar-title.post-comment-title h3 {
   font-size: 26px;
   font-weight: 500;
@@ -767,6 +829,7 @@ p {
 .sidebar-list ul li {
   display: block;
 }
+
 .sidebar-list ul li a {
   position: relative;
   display: block;
@@ -775,6 +838,7 @@ p {
   border-bottom: 1px solid #dde0e0;
   padding-left: 10px;
 }
+
 .sidebar-list ul li a::before {
   position: absolute;
   content: "";
@@ -784,29 +848,35 @@ p {
   height: 1px;
   background-color: #dde0e0;
 }
+
 .sidebar-list ul li a:hover {
   color: #056c5f;
   border-color: #056c5f;
   padding-left: 20px;
 }
+
 .sidebar-list ul li a:hover::before {
   width: 10px;
   background-color: #056c5f;
 }
+
 .sidebar-list ul li:last-child a {
   padding-bottom: 0;
   margin-bottom: 0;
   border-bottom: none;
 }
+
 .sidebar-list ul li:last-child a::before {
   top: 50%;
 }
+
 .sidebar-list-2 ul li {
   display: block;
   margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #dde0e0;
 }
+
 .sidebar-list-2 ul li h6 {
   font-size: 16px;
   font-family: "Rubik", sans-serif;
@@ -814,14 +884,17 @@ p {
   margin-bottom: 0;
   display: inline-block;
 }
+
 .sidebar-list-2 ul li:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border: none;
 }
+
 .sidebar-list-2 ul li:hover {
   border-color: #056c5f;
 }
+
 .sidebar-list-3 ul li span {
   float: right;
 }
@@ -829,14 +902,17 @@ p {
 .basic-pagination ul {
   display: block;
 }
+
 .basic-pagination ul li {
   display: inline-block;
   margin: 0 5px;
 }
+
 .basic-pagination ul li.active a {
   background-color: #056c5f;
   color: #ffffff;
 }
+
 .basic-pagination ul li a {
   height: 70px;
   width: 70px;
@@ -852,6 +928,7 @@ p {
   position: relative;
   z-index: 1;
 }
+
 .basic-pagination ul li a::before {
   position: absolute;
   content: "";
@@ -874,13 +951,14 @@ p {
   transition: all 0.2s ease-out 0s;
   z-index: -1;
 }
+
 .basic-pagination ul li a:hover {
   background: #056c5f;
   border-color: #056c5f;
   color: #ffffff;
 }
 
-.s-btn{
+.s-btn {
   background: #fff;
   height: 65px;
   display: inline-block;
@@ -891,7 +969,8 @@ p {
   text-transform: uppercase;
   line-height: 65px;
 }
-.sycho-btn{
+
+.sycho-btn {
   background: #056c5f;
   height: 65px;
   display: inline-block;
@@ -902,8 +981,9 @@ p {
   text-transform: uppercase;
   line-height: 65px;
   border-radius: 0 50px 50px 50px;
-  &:hover{
+
+  &:hover {
     background: #f8a683;
-    color:#fff;
+    color: #fff;
   }
 }
