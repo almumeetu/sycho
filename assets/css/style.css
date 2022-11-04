@@ -2336,4 +2336,73 @@ p {
   left: 5px;
 }
 
+/*----------------------------------------*/
+/*  14. BLOG CSS START
+/*----------------------------------------*/
+.blog__thumb {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog__content {
+  padding: 40px 30px;
+  padding-right: 50px;
+  margin-top: -70px;
+}
+
+.blog__content h2 {
+  font-size: 27px;
+  line-height: 32px;
+  margin-top: 14px;
+  margin-bottom: 22px;
+}
+
+.blog__content h2 a:hover {
+  color: #f8a683;
+}
+
+.blog__meta span {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.blog__meta span i {
+  color: #f8a683;
+  margin-right: 7px;
+}
+
+.blog__meta span:hover a {
+  color: #056c5f;
+}
+
+.blog__meta span:hover a i {
+  color: #056c5f;
+}
+
+.blog__date {
+  top: 0;
+  right: 0;
+  background-color: #056c5f;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.blog__date h6 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.blog__date span {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
