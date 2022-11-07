@@ -45,54 +45,84 @@
 
 
 
+   <!-- header area start -->
    <header>
-      <div  class="header-area tranparent-header">
+      <div id="header-sticky" class="header-area tranparent-header box-105">
          <div class="container-fluid">
             <div class="row align-items-center">
-               <div class="col-xl-2">
+               <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
                   <div class="logo">
-                     <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                     <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
                   </div>
                </div>
-               <div class="col-xl-7">
+               <div class="col-xl-7 col-lg-9 d-none d-lg-block">
+                  <!-- menu area start -->
                   <div class="main-menu">
                      <nav>
                         <ul>
-                           <li><a href="index.html">Home</a></li>
-                           <li><a href="index.html">Pages +</a>
+                           <li class="has-dropdown"><a href="index.html">home</a>
                               <ul class="submenu">
-                                 <li><a href="index.html">Home</a></li>
-                                 <li><a href="index.html">Pages</a></li>
-                                 <li><a href="index.html">Services</a></li>
-                                 <li><a href="index.html">case studies</a></li>
-                                 <li><a href="index.html">article</a></li>
-                                 <li><a href="index.html">Contact</a></li>
+                                 <li><a href="index.html">home style one</a></li>
+                                 <li><a href="index-2.html">home style two</a></li>
+                                 <li><a href="index-3.html">home style three</a></li>
                               </ul>
                            </li>
-                           <li><a href="index.html">Services +</a></li>
-                           <li><a href="index.html">case studies +</a></li>
-                           <li><a href="index.html">article +</a></li>
-                           <li><a href="index.html">Contact</a></li>
+                           <li class="has-dropdown"><a href="about-us.html">about</a>
+                              <ul class="submenu">
+                                 <li><a href="about-us.html">about us</a></li>
+                                 <li><a href="about-me.html">about me</a></li>
+                              </ul>
+                           </li>
+                           <li class="has-dropdown"> <a href="services.html">services</a>
+                              <ul class="submenu">
+                                 <li><a href="services.html">services</a></li>
+                                 <li><a href="services-details.html">service details</a></li>
+                              </ul>
+                           </li>
+                           <li class="has-dropdown"><a href="case.html">cases</a>
+                              <ul class="submenu">
+                                 <li><a href="case.html">case </a></li>
+                                 <li><a href="case-details.html">case details</a></li>
+                              </ul>
+                           </li>
+                           <li class="has-dropdown"><a href="#">pages</a>
+                              <ul class="submenu">
+                                 <li><a href="team.html">our team</a></li>
+                                 <li><a href="team-details.html">team details</a></li>
+                              </ul>
+                           </li>
+                           <li class="has-dropdown"><a href="blog.html">blog</a>
+                              <ul class="submenu">
+                                 <li><a href="blog.html">blog </a></li>
+                                 <li><a href="blog-left-sidebar.html">blog Left Sidebar</a></li>
+                                 <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="contact.html">contact</a></li>
                         </ul>
                      </nav>
                   </div>
+                  <!-- menu area end -->
                </div>
-               <div class="col-xl-3">
-                  <div class="header-icon f-right">
-                     <a href="#"><img src="assets/img/icon/header-icon.png" alt="header-icon"></a>
+               <div class="col-xl-3 col-lg-1 col-md-9 col-sm-6 col-6">
+                  <div class="header-bar info-toggle-btn f-right">
+                     <span></span>
+                     <span></span>
+                     <span></span>
                   </div>
-                  <div class="header-cta f-right">
-                     <img src="assets/img/icon/phone-icon.png" alt="phone-icon">
-                     <span><a href="tell:+1 (202) 588-6500"> +1 (202) 588-6500</a></span>
+                  <div
+                     class="header-cta f-right d-none d-sm-inline-block d-md-inline-block d-lg-none d-xl-inline-block">
+                     <span><img src="assets/img/icon/phone-icon.png" alt="phonr-icon"> <a href="#">+1 (202) 588-6500</a></span>
                   </div>
                </div>
             </div>
          </div>
       </div>
    </header>
+   <!-- header area start -->
 
    <!-- info area start -->
-   <!-- <section class="info__area transition-3">
+   <section class="info__area transition-3">
       <div class="info__area-inner">
          <div class="info__area-wrapper">
             <div class="info__close-icon text-right">
@@ -135,15 +165,15 @@
                         </div>
                         <div class="text">
                            <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                 data-cfemail="761f18101936130e171b061a135815191b">[email&#160;protected]</a></span>
+                                 data-cfemail="bdd4d3dbd2fdd8c5dcd0cdd1d893ded2d0">[email&#160;protected]</a></span>
                         </div>
                      </li>
                   </ul>
                </div>
             </div>
-         </div> -->
+         </div>
          <!-- side-mobile-menu start -->
-         <!-- <nav class="side-mobile-menu">
+         <nav class="side-mobile-menu">
             <div class="info__close-icon text-right mb-20">
                <button class="info-close-btn"><i class="fal fa-times"></i></button>
             </div>
@@ -155,7 +185,12 @@
                      <li><a href="index-3.html">home style three</a></li>
                   </ul>
                </li>
-               <li class="has-dropdown"><a href="about-us.html">about</a></li>
+               <li class="has-dropdown"><a href="about-us.html">about</a>
+                  <ul class="submenu">
+                     <li><a href="about-us.html">about us</a></li>
+                     <li><a href="about-me.html">about me</a></li>
+                  </ul>
+               </li>
                <li class="has-dropdown"> <a href="services.html">services</a>
                   <ul class="submenu">
                      <li><a href="services.html">services</a></li>
@@ -194,86 +229,91 @@
                </li>
                <li><a href="contact.html">contact</a></li>
             </ul>
-         </nav> -->
+         </nav>
          <!-- side-mobile-menu end -->
-      <!-- </div>
+      </div>
    </section>
-   <div class="body-overlay transition-3"></div> -->
+   <div class="body-overlay transition-3"></div>
    <!-- info area end -->
 
+   <!-- scroll up area start -->
+   <div class="scroll-up" id="scroll" style="display: none;">
+      <a href="javascript:void(0);"><i class="far fa-angle-up"></i></a>
+   </div>
+   <!-- scroll up area end -->
 
    <main>
- <!-- slider area start -->
- <div class="slider-area p-relative" data-background="assets/img/slider/slider-bg.jpg">
-   <div class="slider-bg-text p-absolute">
-       <!-- <h2 class="vert-move">Sycho</h2> -->
-   </div>
-   <div class="container-fluid p-0">
-       <div class="slider-active">
-           <div class="single-slider slider-height d-flex align-items-center">
-               <div class="row align-items-center no-gutters mt-40">
-                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                       <div class="slider-content">
+      <!-- slider area start -->
+      <div class="slider-area p-relative" data-background="assets/img/slider/slider-bg.jpg">
+         <div class="slider-bg-text p-absolute">
+            <h2 class="vert-move">Sycho</h2>
+         </div>
+         <div class="container-fluid p-0">
+            <div class="slider-active">
+               <div class="single-slider slider-height d-flex align-items-center">
+                  <div class="row align-items-center no-gutters mt-40">
+                     <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                        <div class="slider-content">
                            <span data-animation="fadeInUp" data-delay=".2s">Every depression solution</span>
                            <h2 data-animation="fadeInUp" data-delay=".4s">Best therapy
-                           makes Excellent
-                           yours family</h2>
+                              makes Excellent
+                              yours family</h2>
                            <div class="slider-btn" data-animation="fadeInUp" data-delay=".6s">
-                               <a href="contact.html" class="s-btn s-btn__white">Contact Us now</a>
+                              <a href="contact.html" class="s-btn s-btn__white">Contact Us now</a>
                            </div>
-                       </div>
-                   </div>
-                   <div class="col-xl-7 col-lg-7 col-md-7 d-none d-md-inline-block">
-                       <div class="slider-thumb text-right" data-animation="fadeInRight" data-delay=".8s">
+                        </div>
+                     </div>
+                     <div class="col-xl-7 col-lg-7 col-md-7 d-none d-md-inline-block">
+                        <div class="slider-thumb text-right" data-animation="fadeInRight" data-delay=".8s">
                            <img src="assets/img/slider/slider-humb.jpg" alt="">
-                       </div>
-                   </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
-           </div>
-           <div class="single-slider slider-height d-flex align-items-center">
-               <div class="row align-items-center no-gutters mt-40">
-                   <div class="col-xl-5 col-lg-5 col-md-5">
-                       <div class="slider-content">
+               <div class="single-slider slider-height d-flex align-items-center">
+                  <div class="row align-items-center no-gutters mt-40">
+                     <div class="col-xl-5 col-lg-5 col-md-5">
+                        <div class="slider-content">
                            <span data-animation="fadeInUp" data-delay=".2s">Every depression solution</span>
                            <h2 data-animation="fadeInUp" data-delay=".4s">Best therapy
-                           makes Excellent
-                           yours family</h2>
+                              makes Excellent
+                              yours family</h2>
                            <div class="slider-btn" data-animation="fadeInUp" data-delay=".6s">
-                               <a href="contact.html" class="s-btn s-btn__white">Contact Us now</a>
+                              <a href="contact.html" class="s-btn s-btn__white">Contact Us now</a>
                            </div>
-                       </div>
-                   </div>
-                   <div class="col-xl-7 col-lg-7 col-md-7 d-none d-md-inline-block">
-                       <div class="slider-thumb text-right" data-animation="fadeInRight" data-delay=".8s">
+                        </div>
+                     </div>
+                     <div class="col-xl-7 col-lg-7 col-md-7 d-none d-md-inline-block">
+                        <div class="slider-thumb text-right" data-animation="fadeInRight" data-delay=".8s">
                            <img src="assets/img/slider/slider-humb-2.jpg" alt="">
-                       </div>
-                   </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
-           </div>
-           <div class="single-slider slider-height d-flex align-items-center">
-               <div class="row align-items-center no-gutters mt-40">
-                   <div class="col-xl-5 col-lg-5 col-md-5">
-                       <div class="slider-content">
+               <div class="single-slider slider-height d-flex align-items-center">
+                  <div class="row align-items-center no-gutters mt-40">
+                     <div class="col-xl-5 col-lg-5 col-md-5">
+                        <div class="slider-content">
                            <span data-animation="fadeInUp" data-delay=".2s">Every depression solution</span>
                            <h2 data-animation="fadeInUp" data-delay=".4s">Best therapy
-                           makes Excellent
-                           yours family</h2>
+                              makes Excellent
+                              yours family</h2>
                            <div class="slider-btn" data-animation="fadeInUp" data-delay=".6s">
-                               <a href="contact.html" class="s-btn s-btn__white">Contact Us now</a>
+                              <a href="contact.html" class="s-btn s-btn__white">Contact Us now</a>
                            </div>
-                       </div>
-                   </div>
-                   <div class="col-xl-7 col-lg-7 col-md-7 d-none d-md-inline-block">
-                       <div class="slider-thumb text-right" data-animation="fadeInRight" data-delay=".8s">
+                        </div>
+                     </div>
+                     <div class="col-xl-7 col-lg-7 col-md-7 d-none d-md-inline-block">
+                        <div class="slider-thumb text-right" data-animation="fadeInRight" data-delay=".8s">
                            <img src="assets/img/slider/slider-humb.jpg" alt="">
-                       </div>
-                   </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
-           </div>
-       </div>
-   </div>
-</div>
-<!-- slider area end -->
+            </div>
+         </div>
+      </div>
+      <!-- slider area end -->
 
 
 
@@ -321,78 +361,83 @@
          </div>
       </div>
       <!-- Features Area End Here -->
-
-      <!-- About Area Start Here -->
-      <div class="about-area p-relative pt-130 pb-100 pl-105 pr-105">
-         <div class="about-bg-img" data-background="assets/img/bg/pattern.jpg"></div>
+      <!-- about area start -->
+      <div class="about-area p-relative pt-100 pb-80 box-105">
+         <div class="about-bg-img" data-background="assets/img/bg/pattern-2.jpg"></div>
          <div class="container-fluid">
             <div class="row">
-               <div class="col-xl-6">
-                  <div class="about-img mb-30">
-                     <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
-                  </div>
-                  <div class="about-content" data-background="assets/img/bg/pattern.jpg">
-                     <h4>20 Years <br>
-                        Professional <br>
-                        Experience</h4>
+               <div class="col-xl-7">
+                  <div class="about-image w-img mr-65 mb-30">
+                     <img src="assets/img/about/about-1.jpg" alt="">
+                     <div class="about-content" data-background="assets/img/about/ab-pattern.png">
+                        <h4>20 Years <br>
+                           Professional <br>
+                           Experience</h4>
+                     </div>
                   </div>
                </div>
-               <div class="col-xl-6">
-                  <div class="about-wraper pl-100">
-                     <div class="section-title-wrap mb-25">
-                        <div class="section-sub-title mb-20">
-                           <img src="assets/img/icon/about-icon/about-icon.png" alt="about-icon">
-                           <span>welcome-to sycho</span>
+               <div class="col-xl-5">
+                  <div class="about-wrapper">
+                     <div class="section__title mb-45">
+                        <div class="section__icon mb-15">
+                           <img src="assets/img/icon/sec-icon-1.png" alt=""> <span
+                              class="section__sub-title ml-15">welcome to sycho</span>
                         </div>
-                        <h2 class="section-title mb-90">
-                           Proper Physiotherapy From Proper
-                           Guided Physiotherapists
-                        </h2>
+                        <h1 class="mb-100">Patients are Happy, Cause Proper Mental Cure Support</h1>
+                     </div>
+                     <div class="about-inner pt-50">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed dole there eiusmod tempor
                            incididub
                            labore dolore magna aliqua denim ads minim veniam, quis nostrud exerctation to ullamco laibor
                            nisi above murli aliquip commodo usto imperdet quam praesent uten dictum. At diam parturiena
-                           sit nisi integer potenti vitae egestas parturient
-                        </p>
-                     </div>
+                           sit nisi integer potenti vitae egestas parturient</p>
 
-                     <div class="about-info mb-20">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="about-info-list mb-30">
-                                 <i class="fal fa-check"></i>
-                                 <span>Psychodynamic Therapy</span>
+                        <div class="about-info mb-30">
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="about-info-list d-flex mb-30">
+                                    <div class="abot-icon">
+                                       <i class="fal fa-check"></i>
+                                    </div>
+                                    <div class="about-text"><span>Psychodynamic Therapy</span></div>
+                                 </div>
                               </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="about-info-list mb-30">
-                                 <i class="fal fa-check"></i>
-                                 <span>Personal Development</span>
+                              <div class="col-md-6">
+                                 <div class="about-info-list d-flex mb-30">
+                                    <div class="abot-icon">
+                                       <i class="fal fa-check"></i>
+                                    </div>
+                                    <div class="about-text"><span>Consultation</span></div>
+                                 </div>
                               </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="about-info-list mb-30">
-                                 <i class="fal fa-check"></i>
-                                 <span>Mindtherafy Professional</span>
+                              <div class="col-md-6">
+                                 <div class="about-info-list d-flex mb-30">
+                                    <div class="abot-icon">
+                                       <i class="fal fa-check"></i>
+                                    </div>
+                                    <div class="about-text"><span>Couple Problem</span></div>
+                                 </div>
                               </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="about-info-list mb-30">
-                                 <i class="fal fa-check"></i>
-                                 <span>Assessment Consultation</span>
+                              <div class="col-md-6">
+                                 <div class="about-info-list d-flex mb-30">
+                                    <div class="abot-icon">
+                                       <i class="fal fa-check"></i>
+                                    </div>
+                                    <div class="about-text"><span>Mental Health</span></div>
+                                 </div>
                               </div>
                            </div>
                         </div>
-                     </div>
-                     <div class="about-bottom mb-60 d-flex">
-                        <div class="about-btn mr-40">
-                           <a href="#" class="s-btn sycho-btn" tabindex="0">more about us</a>
-                        </div>
-                        <div class="about-author">
-                           <img class="f-left" src="assets/img/about/about-author.png" alt="about-author">
-                           <div class="ab-author">
-                              <h3>Dalian Machen</h3>
-                              <span>CEO, Sycho</span>
+                        <div class="about-bottom d-block d-sm-flex">
+                           <div class="about-btn mr-40 mb-30">
+                              <a href="about-us.html" class="s-btn" tabindex="0">more about us</a>
+                           </div>
+                           <div class="about-author mb-30">
+                              <img src="assets/img/about/about-author.png" alt="">
+                              <div class="ab-author">
+                                 <h3>Dalian Machen</h3>
+                                 <span>CEO, Sycho</span>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -401,7 +446,7 @@
             </div>
          </div>
       </div>
-      <!-- About Area End Here -->
+      <!-- about area start -->
 
       <!-- Services Area Start Here -->
       <div class="services-area">
@@ -421,7 +466,7 @@
                </div>
             </div>
             <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-6">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div class="services__item p-relative mb-30">
                      <div class="services__thumb img-fluid p-relative">
                         <img src="assets/img/services/services-1.jpg" alt="services-1">
@@ -439,7 +484,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-xl-4 col-lg-4 col-md-6">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div class="services__item p-relative mb-30">
                      <div class="services__thumb img-fluid p-relative">
                         <img src="assets/img/services/services-2.jpg" alt="services-1">
@@ -457,7 +502,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-xl-4 col-lg-4 col-md-6">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div class="services__item p-relative mb-30">
                      <div class="services__thumb img-fluid p-relative">
                         <img src="assets/img/services/services-3.jpg" alt="services-1">
@@ -475,7 +520,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-xl-4 col-lg-4 col-md-6">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div class="services__item p-relative mb-30">
                      <div class="services__thumb img-fluid p-relative">
                         <img src="assets/img/services/services-4.jpg" alt="services-1">
@@ -493,7 +538,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-xl-4 col-lg-4 col-md-6">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div class="services__item p-relative mb-30">
                      <div class="services__thumb img-fluid p-relative">
                         <img src="assets/img/services/services-5.jpg" alt="services-1">
@@ -511,7 +556,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-xl-4 col-lg-4 col-md-6">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div class="services__item p-relative mb-30">
                      <div class="services__thumb img-fluid p-relative">
                         <img src="assets/img/services/services-6.jpg" alt="services-1">
